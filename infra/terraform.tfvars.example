@@ -1,0 +1,11 @@
+# 复制为 terraform.tfvars 并填入真实值。
+# provider 凭据（华为云 AK/SK）请通过环境变量传入，勿写入本文件：
+#   export HUAWEICLOUD_ACCESS_KEY="<AK>"
+#   export HUAWEICLOUD_SECRET_KEY="<SK>"
+#
+# 注意：本文件含敏感信息，切勿提交到代码库。
+
+region       = "cn-north-4"
+project_name = "books-api"
+
+db_password = "<8-32位含大小写字母数字特殊字符>"
