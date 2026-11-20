@@ -1,0 +1,14 @@
+# Terraform
+infra/.terraform/
+infra/*.tfstate*
+infra/*.tfplan
+infra/terraform.tfvars
+
+# Node
+node_modules/
+
+# 函数包（构建产物，可由 scripts/build-functions.sh 重建）
+src/functions/*/package-lock.json
+
+# CodeArts Doer 本地工具状态
+.codeartsdoer/

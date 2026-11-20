@@ -1,0 +1,7 @@
+{
+  "name": "auth-login",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {"cassandra-driver": "^4.7.2", "jsonwebtoken": "^9.0.2"}
+}

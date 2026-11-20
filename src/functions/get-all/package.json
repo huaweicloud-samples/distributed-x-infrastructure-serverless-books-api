@@ -1,0 +1,7 @@
+{
+  "name": "books-get-all",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {"cassandra-driver": "^4.7.2"}
+}
